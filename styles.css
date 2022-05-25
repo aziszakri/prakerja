@@ -1,0 +1,117 @@
+.body {
+    background-image: linear-gradient(white, rgb(226, 226, 226));
+}
+
+.header {
+    width: 100%;
+    overflow: hidden;
+    background: white;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.header .nav {
+    float: right;
+}
+
+.header .nav li {
+    float: right;
+    display: block;
+    margin-left: 30px;
+}
+
+.header .nav li a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.header .nav li a:hover {
+    color: rgb(27, 25, 172);
+}
+
+.section {
+    display: flex;
+    margin: 10px;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.section .foto {
+    margin: 30px;
+    width: 15%;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.section .data {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    margin-top: 2%;
+}
+
+.section .data .button {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 7%;
+    font-size: 14px;
+    color: green;
+
+}
+
+.section .data .button:hover {
+    background-color: rgb(0, 37, 202);
+    color: white;
+}
+
+.section .detil {
+    margin-left: 90%;
+    margin-top: 15%;
+    border-spacing: 10px;
+    border-left: solid rgba(0, 0, 0, 0.171) 1px;
+    text-indent: 40px;
+    
+}
+
+.section-form {
+    margin: 10px;
+    margin-top: 1px;
+    border: groove 1px;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    box-sizing: border-box;
+    border: solid gray 1px;
+}
+
+.section-form .button {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid rgba(0, 81, 255, 0.829);
+    background-color: rgb(8, 99, 31);
+    border-radius: 10%;
+    font-size: 14px;
+    color: aliceblue;
+}
+
+.section-form .button:hover {
+    background-color: rgba(20, 136, 49, 0.836);;
+    color: aliceblue;
+}
