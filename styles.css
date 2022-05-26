@@ -1,3 +1,14 @@
+/* @media(min-width:321px) {
+    .body{
+        width: 321px;
+    }
+}
+@media(max-width:400px) {
+    .body {
+        width: 400px;
+    }
+} */
+
 .body {
     background-image: linear-gradient(to top, white, rgb(218, 218, 218));
 }
@@ -37,7 +48,7 @@
 }
 
 .section {
-    display:flex;
+    display: flex;
     margin: 10px;
     background-color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -78,7 +89,8 @@
     border-spacing: 10px;
     border-left: solid rgba(0, 0, 0, 0.171) 1px;
     text-indent: 40px;
-    
+    display: inline-block;
+
 }
 
 .section-form {
@@ -112,6 +124,7 @@ select {
 }
 
 .section-form .button:hover {
-    background-color: rgba(20, 136, 49, 0.836);;
+    background-color: rgba(20, 136, 49, 0.836);
+    ;
     color: aliceblue;
 }
