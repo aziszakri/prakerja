@@ -37,7 +37,7 @@
 }
 
 .section {
-    display: flex;
+    display:flex;
     margin: 10px;
     background-color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
